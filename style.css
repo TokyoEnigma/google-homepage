@@ -7,3 +7,35 @@ ul {
 li {
     display: inline;
 }
+
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 50em;
+}
+
+.search-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.5em;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+footer {
+    bottom: 0%;
+}
+
+#search-form {
+    width: 50%;
+    /*border: none;
+    outline: none;*/
+}
