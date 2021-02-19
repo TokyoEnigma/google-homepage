@@ -39,3 +39,25 @@ footer {
     /*border: none;
     outline: none;*/
 }
+
+#left-head {
+    display:flex;
+    justify-content: start;
+    
+}
+
+#right-head {
+    display:flex;
+    justify-content: flex-end;
+}
+
+#left-foot {
+    display:flex;
+    justify-content: start;
+    
+}
+
+#right-foot {
+    display:flex;
+    justify-content: flex-end;
+}
