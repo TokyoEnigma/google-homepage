@@ -31,33 +31,26 @@ img {
   }
 
 footer {
+    position: absolute;
     bottom: 0%;
+    width: 100%;
+    background: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
 }
 
 #search-form {
+    max-width: 50em;
     width: 50%;
     /*border: none;
     outline: none;*/
 }
 
-#left-head {
-    display:flex;
-    justify-content: start;
-    
+.right-head {
+    float: right;
+    margin-right: 1em;
 }
 
-#right-head {
-    display:flex;
-    justify-content: flex-end;
-}
-
-#left-foot {
-    display:flex;
-    justify-content: start;
-    
-}
-
-#right-foot {
-    display:flex;
-    justify-content: flex-end;
+.right-foot {
+    float: right;
+    margin-right: 0.5em;
 }
