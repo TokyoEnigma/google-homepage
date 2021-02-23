@@ -40,8 +40,7 @@ footer {
 }
 
 #search-form {
-    max-width: 50em;
-    width: 50%;
+    width: 40em;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -49,6 +48,7 @@ footer {
     border-radius: 24px;
     height: 45px;
     margin-bottom: 20px;
+    text-align: center;
 }
 
 .right-head {
@@ -59,4 +59,20 @@ footer {
 .right-foot {
     float: right;
     margin-right: 0.5em;
+}
+
+.search-icon {
+    position: absolute;
+    padding-right: 30em;
+    padding-top: 2.5em;
+}
+
+.search-mic {
+    position: absolute;
+    padding-left: 30em;
+    padding-top: 2.5em;
+}
+
+::-webkit-input-placeholder {
+    font-size: 1.2em;
 }
